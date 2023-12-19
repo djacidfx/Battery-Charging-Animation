@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_200sdp"
+    android:layout_gravity="center"
+    android:background="@drawable/rounded_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp"
+    android:weightSum="100">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="20"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:text="@string/like"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="20"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:text="@string/string_appreciate"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_weight="25"
+        android:padding="@dimen/_10sdp"
+        android:src="@drawable/stars" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35"
+        android:gravity="center_vertical"
+        android:padding="@dimen/_7sdp">
+
+        <TextView
+            android:id="@+id/txtLater"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_bg"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="@string/string_later"
+            android:textColor="@drawable/rate_text_selector"
+            android:textSize="@dimen/_13ssp" />
+
+        <TextView
+            android:id="@+id/txtRate"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_bg"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="@string/string_rate"
+            android:textColor="@drawable/rate_text_selector"
+            android:textSize="@dimen/_13ssp" />
+    </RelativeLayout>
+</LinearLayout>
